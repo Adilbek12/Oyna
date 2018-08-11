@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DDE051211F343F000FEDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE050211F343F000FEDBB /* AppDelegate.swift */; };
+		C7DDE053211F343F000FEDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE052211F343F000FEDBB /* ViewController.swift */; };
+		C7DDE056211F343F000FEDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DDE054211F343F000FEDBB /* Main.storyboard */; };
+		C7DDE058211F3440000FEDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DDE057211F3440000FEDBB /* Assets.xcassets */; };
+		C7DDE05B211F3440000FEDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DDE059211F3440000FEDBB /* LaunchScreen.storyboard */; };
+		C7DDE066211F3440000FEDBB /* Oy_na_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE065211F3440000FEDBB /* Oy_na_2Tests.swift */; };
+		C7DDE071211F3440000FEDBB /* Oy_na_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE070211F3440000FEDBB /* Oy_na_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7DDE062211F3440000FEDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DDE045211F343F000FEDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DDE04C211F343F000FEDBB;
+			remoteInfo = "Oy'na 2";
+		};
+		C7DDE06D211F3440000FEDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7DDE045211F343F000FEDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7DDE04C211F343F000FEDBB;
+			remoteInfo = "Oy'na 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7DDE04D211F343F000FEDBB /* Oy'na 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oy'na 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DDE050211F343F000FEDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7DDE052211F343F000FEDBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7DDE055211F343F000FEDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7DDE057211F3440000FEDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7DDE05A211F3440000FEDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7DDE05C211F3440000FEDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DDE061211F3440000FEDBB /* Oy'na 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oy'na 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DDE065211F3440000FEDBB /* Oy_na_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oy_na_2Tests.swift; sourceTree = "<group>"; };
+		C7DDE067211F3440000FEDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DDE06C211F3440000FEDBB /* Oy'na 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oy'na 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DDE070211F3440000FEDBB /* Oy_na_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oy_na_2UITests.swift; sourceTree = "<group>"; };
+		C7DDE072211F3440000FEDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DDE04A211F343F000FEDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE05E211F3440000FEDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE069211F3440000FEDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7DDE044211F343F000FEDBB = {
+			isa = PBXGroup;
+			children = (
+				C7DDE04F211F343F000FEDBB /* Oy'na 2 */,
+				C7DDE064211F3440000FEDBB /* Oy'na 2Tests */,
+				C7DDE06F211F3440000FEDBB /* Oy'na 2UITests */,
+				C7DDE04E211F343F000FEDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DDE04E211F343F000FEDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDE04D211F343F000FEDBB /* Oy'na 2.app */,
+				C7DDE061211F3440000FEDBB /* Oy'na 2Tests.xctest */,
+				C7DDE06C211F3440000FEDBB /* Oy'na 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DDE04F211F343F000FEDBB /* Oy'na 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDE050211F343F000FEDBB /* AppDelegate.swift */,
+				C7DDE052211F343F000FEDBB /* ViewController.swift */,
+				C7DDE054211F343F000FEDBB /* Main.storyboard */,
+				C7DDE057211F3440000FEDBB /* Assets.xcassets */,
+				C7DDE059211F3440000FEDBB /* LaunchScreen.storyboard */,
+				C7DDE05C211F3440000FEDBB /* Info.plist */,
+			);
+			path = "Oy'na 2";
+			sourceTree = "<group>";
+		};
+		C7DDE064211F3440000FEDBB /* Oy'na 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDE065211F3440000FEDBB /* Oy_na_2Tests.swift */,
+				C7DDE067211F3440000FEDBB /* Info.plist */,
+			);
+			path = "Oy'na 2Tests";
+			sourceTree = "<group>";
+		};
+		C7DDE06F211F3440000FEDBB /* Oy'na 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDE070211F3440000FEDBB /* Oy_na_2UITests.swift */,
+				C7DDE072211F3440000FEDBB /* Info.plist */,
+			);
+			path = "Oy'na 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DDE04C211F343F000FEDBB /* Oy'na 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DDE075211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2" */;
+			buildPhases = (
+				C7DDE049211F343F000FEDBB /* Sources */,
+				C7DDE04A211F343F000FEDBB /* Frameworks */,
+				C7DDE04B211F343F000FEDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oy'na 2";
+			productName = "Oy'na 2";
+			productReference = C7DDE04D211F343F000FEDBB /* Oy'na 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7DDE060211F3440000FEDBB /* Oy'na 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DDE078211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2Tests" */;
+			buildPhases = (
+				C7DDE05D211F3440000FEDBB /* Sources */,
+				C7DDE05E211F3440000FEDBB /* Frameworks */,
+				C7DDE05F211F3440000FEDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DDE063211F3440000FEDBB /* PBXTargetDependency */,
+			);
+			name = "Oy'na 2Tests";
+			productName = "Oy'na 2Tests";
+			productReference = C7DDE061211F3440000FEDBB /* Oy'na 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7DDE06B211F3440000FEDBB /* Oy'na 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DDE07B211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2UITests" */;
+			buildPhases = (
+				C7DDE068211F3440000FEDBB /* Sources */,
+				C7DDE069211F3440000FEDBB /* Frameworks */,
+				C7DDE06A211F3440000FEDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DDE06E211F3440000FEDBB /* PBXTargetDependency */,
+			);
+			name = "Oy'na 2UITests";
+			productName = "Oy'na 2UITests";
+			productReference = C7DDE06C211F3440000FEDBB /* Oy'na 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DDE045211F343F000FEDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mailanov Adilbek";
+				TargetAttributes = {
+					C7DDE04C211F343F000FEDBB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C7DDE060211F3440000FEDBB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7DDE04C211F343F000FEDBB;
+					};
+					C7DDE06B211F3440000FEDBB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C7DDE04C211F343F000FEDBB;
+					};
+				};
+			};
+			buildConfigurationList = C7DDE048211F343F000FEDBB /* Build configuration list for PBXProject "Oy'na 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7DDE044211F343F000FEDBB;
+			productRefGroup = C7DDE04E211F343F000FEDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DDE04C211F343F000FEDBB /* Oy'na 2 */,
+				C7DDE060211F3440000FEDBB /* Oy'na 2Tests */,
+				C7DDE06B211F3440000FEDBB /* Oy'na 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DDE04B211F343F000FEDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DDE05B211F3440000FEDBB /* LaunchScreen.storyboard in Resources */,
+				C7DDE058211F3440000FEDBB /* Assets.xcassets in Resources */,
+				C7DDE056211F343F000FEDBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE05F211F3440000FEDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE06A211F3440000FEDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DDE049211F343F000FEDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DDE053211F343F000FEDBB /* ViewController.swift in Sources */,
+				C7DDE051211F343F000FEDBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE05D211F3440000FEDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DDE066211F3440000FEDBB /* Oy_na_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DDE068211F3440000FEDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DDE071211F3440000FEDBB /* Oy_na_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7DDE063211F3440000FEDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DDE04C211F343F000FEDBB /* Oy'na 2 */;
+			targetProxy = C7DDE062211F3440000FEDBB /* PBXContainerItemProxy */;
+		};
+		C7DDE06E211F3440000FEDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7DDE04C211F343F000FEDBB /* Oy'na 2 */;
+			targetProxy = C7DDE06D211F3440000FEDBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7DDE054211F343F000FEDBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DDE055211F343F000FEDBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7DDE059211F3440000FEDBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7DDE05A211F3440000FEDBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DDE073211F3440000FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7DDE074211F3440000FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7DDE076211F3440000FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7DDE077211F3440000FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7DDE079211F3440000FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oy'na 2.app/Oy'na 2";
+			};
+			name = Debug;
+		};
+		C7DDE07A211F3440000FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oy'na 2.app/Oy'na 2";
+			};
+			name = Release;
+		};
+		C7DDE07C211F3440000FEDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oy'na 2";
+			};
+			name = Debug;
+		};
+		C7DDE07D211F3440000FEDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oy'na 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adilbek.Oy-na-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oy'na 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DDE048211F343F000FEDBB /* Build configuration list for PBXProject "Oy'na 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DDE073211F3440000FEDBB /* Debug */,
+				C7DDE074211F3440000FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DDE075211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DDE076211F3440000FEDBB /* Debug */,
+				C7DDE077211F3440000FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DDE078211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DDE079211F3440000FEDBB /* Debug */,
+				C7DDE07A211F3440000FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7DDE07B211F3440000FEDBB /* Build configuration list for PBXNativeTarget "Oy'na 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DDE07C211F3440000FEDBB /* Debug */,
+				C7DDE07D211F3440000FEDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DDE045211F343F000FEDBB /* Project object */;
+}
