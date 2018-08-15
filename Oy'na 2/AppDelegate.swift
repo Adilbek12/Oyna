@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Oy'na 2
-//
-//  Created by Mailanov Adilbek on 8/11/18.
-//  Copyright © 2018 Mailanov Adilbek. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
