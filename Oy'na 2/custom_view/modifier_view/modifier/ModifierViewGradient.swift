@@ -16,6 +16,10 @@ class ModifierViewGradient: ModifierView {
         gradientLayer.locations = [0.0, 1.0]
         gradientLayer.frame = view.bounds
         
-        view.layer.insertSublayer(gradientLayer, at: 0)
+        if (view.layer.sublayers?[0] as? CAGradientLayer) != nil {
+            view.layer.sublayers?[0] = gradientLayer
+        } else {
+            view.layer.insertSublayer(gradientLayer, at: 0)
+        }
     }
 }

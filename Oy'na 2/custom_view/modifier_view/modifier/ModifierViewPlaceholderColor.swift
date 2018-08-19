@@ -9,9 +9,13 @@ class ModifierViewPlaceholderColor: ModifierView {
     }
     
     func modify(view: UIView) {
-        if let textFiled = view as? UITextField {
-            textFiled.attributedPlaceholder = NSAttributedString(string: textFiled.placeholder ?? "",
-                                                                   attributes: [NSAttributedStringKey.foregroundColor: color])
+        if let textField = view as? UITextField {
+            setPlaceholderColor(forTextField: textField)
         }
+    }
+    
+    private func setPlaceholderColor(forTextField textField: UITextField) {
+        textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder ?? "",
+                                                             attributes: [NSAttributedStringKey.foregroundColor: color])
     }
 }

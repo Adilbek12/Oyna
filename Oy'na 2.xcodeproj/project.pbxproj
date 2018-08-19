@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C703742821202B8200FE14A3 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703742721202B8200FE14A3 /* HttpRequest.swift */; };
+		C703742821202B8200FE14A3 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703742721202B8200FE14A3 /* Api.swift */; };
 		C703742A21202EBC00FE14A3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703742921202EBC00FE14A3 /* RegistrationViewController.swift */; };
 		C703742C21202F7200FE14A3 /* ViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703742B21202F7200FE14A3 /* ViewBackground.swift */; };
 		C703742F2120378C00FE14A3 /* TextFieldTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703742E2120378C00FE14A3 /* TextFieldTypeOne.swift */; };
-		C70374322120390200FE14A3 /* ButtonTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70374312120390200FE14A3 /* ButtonTypeOne.swift */; };
+		C70374322120390200FE14A3 /* ButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70374312120390200FE14A3 /* ButtonGradient.swift */; };
 		C703743521203B6800FE14A3 /* RegisrationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C703743421203B6800FE14A3 /* RegisrationUser.swift */; };
 		C7DDE051211F343F000FEDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE050211F343F000FEDBB /* AppDelegate.swift */; };
 		C7DDE053211F343F000FEDBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE052211F343F000FEDBB /* LoginViewController.swift */; };
@@ -20,14 +20,13 @@
 		C7DDE05B211F3440000FEDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DDE059211F3440000FEDBB /* LaunchScreen.storyboard */; };
 		C7DDE066211F3440000FEDBB /* Oy_na_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE065211F3440000FEDBB /* Oy_na_2Tests.swift */; };
 		C7DDE071211F3440000FEDBB /* Oy_na_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE070211F3440000FEDBB /* Oy_na_2UITests.swift */; };
-		C7DDE086211F3E02000FEDBB /* OnKeyboardShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE085211F3E02000FEDBB /* OnKeyboardShow.swift */; };
+		C7DDE086211F3E02000FEDBB /* KeyboardDeletgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE085211F3E02000FEDBB /* KeyboardDeletgate.swift */; };
 		C7DDE089211F417A000FEDBB /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE088211F417A000FEDBB /* HttpService.swift */; };
 		C7DDE08B211F49F7000FEDBB /* MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE08A211F49F7000FEDBB /* MenuTabController.swift */; };
 		C7DDE08D211F4B97000FEDBB /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE08C211F4B97000FEDBB /* AlertHelper.swift */; };
 		C7DDE090211F4BED000FEDBB /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7DDE08F211F4BED000FEDBB /* AlertView.xib */; };
 		C7DDE095211F66CF000FEDBB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE094211F66CF000FEDBB /* Colors.swift */; };
 		C7DDE097211F67CC000FEDBB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DDE096211F67CC000FEDBB /* Constant.swift */; };
-		C7FDE098212135EF0014135C /* ButtonCircleTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE097212135EF0014135C /* ButtonCircleTypeOne.swift */; };
 		C7FDE0A5212140630014135C /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0A4212140630014135C /* ModifierView.swift */; };
 		C7FDE0AB212140D70014135C /* ModifierViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0AA212140D70014135C /* ModifierViewFactory.swift */; };
 		C7FDE0C6212330020014135C /* ButtonBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0C5212330020014135C /* ButtonBack.swift */; };
@@ -37,6 +36,31 @@
 		C7FDE0D42123E3AA0014135C /* ModifierViewCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0CE2123E3AA0014135C /* ModifierViewCornerRadius.swift */; };
 		C7FDE0D52123E3AA0014135C /* ModifierViewPlaceholderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0CF2123E3AA0014135C /* ModifierViewPlaceholderColor.swift */; };
 		C7FDE0D62123E3AA0014135C /* ModifierViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0D02123E3AA0014135C /* ModifierViewCircle.swift */; };
+		C7FDE0D82123EBC30014135C /* VisualEffectViewContiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0D72123EBC30014135C /* VisualEffectViewContiner.swift */; };
+		C7FDE0DC2123F2470014135C /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0DB2123F2470014135C /* RadioButtonGroup.swift */; };
+		C7FDE0E7212488500014135C /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0E6212488500014135C /* RadioButton.swift */; };
+		C7FDE0E9212488AA0014135C /* RadioButtonGray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0E8212488AA0014135C /* RadioButtonGray.swift */; };
+		C7FDE0EC212514AE0014135C /* TextFieldGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0EB212514AE0014135C /* TextFieldGroup.swift */; };
+		C7FDE0EF21251E0E0014135C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0EE21251E0E0014135C /* String.swift */; };
+		C7FDE0F121251E750014135C /* CheckCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0F021251E750014135C /* CheckCodeViewController.swift */; };
+		C7FDE0F321257E360014135C /* TextFieldCodeTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0F221257E360014135C /* TextFieldCodeTypeOne.swift */; };
+		C7FDE0F6212580770014135C /* VisualEffectContianer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0F5212580770014135C /* VisualEffectContianer.swift */; };
+		C7FDE0F82125C62E0014135C /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0F72125C62E0014135C /* CreatePasswordViewController.swift */; };
+		C7FDE1002125D4AC0014135C /* ApiAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE0FF2125D4AC0014135C /* ApiAuthorization.swift */; };
+		C7FDE1022125D8A30014135C /* AuthorizationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE1012125D8A30014135C /* AuthorizationUser.swift */; };
+		C7FDE1062125DF710014135C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE1052125DF710014135C /* ForgotPasswordViewController.swift */; };
+		C7FDE10A2126913E0014135C /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE1092126913E0014135C /* CircleImageView.swift */; };
+		C7FDE10C2126B01A0014135C /* ButtonQestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE10B2126B01A0014135C /* ButtonQestion.swift */; };
+		C7FDE10F212834460014135C /* UserMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE10E212834460014135C /* UserMenuViewController.swift */; };
+		C7FDE11521283AE80014135C /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE11421283AE80014135C /* Gradient.swift */; };
+		C7FDE11821283D250014135C /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE11721283D250014135C /* Size.swift */; };
+		C7FDE11A21283E5E0014135C /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE11921283E5E0014135C /* Duration.swift */; };
+		C7FDE1252128418D0014135C /* ModifierViewBlure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE1242128418D0014135C /* ModifierViewBlure.swift */; };
+		C7FDE1302128469F0014135C /* ModifierButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE12F2128469F0014135C /* ModifierButton.swift */; };
+		C7FDE13221284CD20014135C /* ModifierLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE13121284CD20014135C /* ModifierLabel.swift */; };
+		C7FDE13421284D990014135C /* ModifierTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE13321284D990014135C /* ModifierTextField.swift */; };
+		C7FDE13621284E5F0014135C /* ModifierVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE13521284E5F0014135C /* ModifierVisualEffect.swift */; };
+		C7FDE139212850910014135C /* ViewBlure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDE138212850910014135C /* ViewBlure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +81,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C703742721202B8200FE14A3 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		C703742721202B8200FE14A3 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		C703742921202EBC00FE14A3 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		C703742B21202F7200FE14A3 /* ViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBackground.swift; sourceTree = "<group>"; };
 		C703742E2120378C00FE14A3 /* TextFieldTypeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTypeOne.swift; sourceTree = "<group>"; };
-		C70374312120390200FE14A3 /* ButtonTypeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTypeOne.swift; sourceTree = "<group>"; };
+		C70374312120390200FE14A3 /* ButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGradient.swift; sourceTree = "<group>"; };
 		C703743421203B6800FE14A3 /* RegisrationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisrationUser.swift; sourceTree = "<group>"; };
 		C7DDE04D211F343F000FEDBB /* Oy'na 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oy'na 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DDE050211F343F000FEDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,14 +100,13 @@
 		C7DDE06C211F3440000FEDBB /* Oy'na 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oy'na 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DDE070211F3440000FEDBB /* Oy_na_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oy_na_2UITests.swift; sourceTree = "<group>"; };
 		C7DDE072211F3440000FEDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7DDE085211F3E02000FEDBB /* OnKeyboardShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnKeyboardShow.swift; sourceTree = "<group>"; };
+		C7DDE085211F3E02000FEDBB /* KeyboardDeletgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDeletgate.swift; sourceTree = "<group>"; };
 		C7DDE088211F417A000FEDBB /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		C7DDE08A211F49F7000FEDBB /* MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabController.swift; sourceTree = "<group>"; };
 		C7DDE08C211F4B97000FEDBB /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		C7DDE08F211F4BED000FEDBB /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
 		C7DDE094211F66CF000FEDBB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C7DDE096211F67CC000FEDBB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		C7FDE097212135EF0014135C /* ButtonCircleTypeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCircleTypeOne.swift; sourceTree = "<group>"; };
 		C7FDE0A4212140630014135C /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
 		C7FDE0AA212140D70014135C /* ModifierViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierViewFactory.swift; sourceTree = "<group>"; };
 		C7FDE0C5212330020014135C /* ButtonBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBack.swift; sourceTree = "<group>"; };
@@ -93,6 +116,31 @@
 		C7FDE0CE2123E3AA0014135C /* ModifierViewCornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewCornerRadius.swift; sourceTree = "<group>"; };
 		C7FDE0CF2123E3AA0014135C /* ModifierViewPlaceholderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewPlaceholderColor.swift; sourceTree = "<group>"; };
 		C7FDE0D02123E3AA0014135C /* ModifierViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewCircle.swift; sourceTree = "<group>"; };
+		C7FDE0D72123EBC30014135C /* VisualEffectViewContiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectViewContiner.swift; sourceTree = "<group>"; };
+		C7FDE0DB2123F2470014135C /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+		C7FDE0E6212488500014135C /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		C7FDE0E8212488AA0014135C /* RadioButtonGray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGray.swift; sourceTree = "<group>"; };
+		C7FDE0EB212514AE0014135C /* TextFieldGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldGroup.swift; sourceTree = "<group>"; };
+		C7FDE0EE21251E0E0014135C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C7FDE0F021251E750014135C /* CheckCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCodeViewController.swift; sourceTree = "<group>"; };
+		C7FDE0F221257E360014135C /* TextFieldCodeTypeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCodeTypeOne.swift; sourceTree = "<group>"; };
+		C7FDE0F5212580770014135C /* VisualEffectContianer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectContianer.swift; sourceTree = "<group>"; };
+		C7FDE0F72125C62E0014135C /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		C7FDE0FF2125D4AC0014135C /* ApiAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAuthorization.swift; sourceTree = "<group>"; };
+		C7FDE1012125D8A30014135C /* AuthorizationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationUser.swift; sourceTree = "<group>"; };
+		C7FDE1052125DF710014135C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		C7FDE1092126913E0014135C /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C7FDE10B2126B01A0014135C /* ButtonQestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonQestion.swift; sourceTree = "<group>"; };
+		C7FDE10E212834460014135C /* UserMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMenuViewController.swift; sourceTree = "<group>"; };
+		C7FDE11421283AE80014135C /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		C7FDE11721283D250014135C /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		C7FDE11921283E5E0014135C /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		C7FDE1242128418D0014135C /* ModifierViewBlure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierViewBlure.swift; sourceTree = "<group>"; };
+		C7FDE12F2128469F0014135C /* ModifierButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierButton.swift; sourceTree = "<group>"; };
+		C7FDE13121284CD20014135C /* ModifierLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierLabel.swift; sourceTree = "<group>"; };
+		C7FDE13321284D990014135C /* ModifierTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierTextField.swift; sourceTree = "<group>"; };
+		C7FDE13521284E5F0014135C /* ModifierVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierVisualEffect.swift; sourceTree = "<group>"; };
+		C7FDE138212850910014135C /* ViewBlure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBlure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +172,10 @@
 			isa = PBXGroup;
 			children = (
 				C703743421203B6800FE14A3 /* RegisrationUser.swift */,
+				C7FDE1012125D8A30014135C /* AuthorizationUser.swift */,
+				C7FDE11421283AE80014135C /* Gradient.swift */,
+				C7FDE11721283D250014135C /* Size.swift */,
+				C7FDE11921283E5E0014135C /* Duration.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -151,6 +203,8 @@
 		C7DDE04F211F343F000FEDBB /* Oy'na 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C7FDE0FE2125D4920014135C /* api */,
+				C7FDE0ED21251DEF0014135C /* extensions */,
 				C703743321203B5B00FE14A3 /* model */,
 				C7DDE093211F66C5000FEDBB /* resourse */,
 				C7DDE087211F416D000FEDBB /* service */,
@@ -187,9 +241,8 @@
 		C7DDE07E211F379F000FEDBB /* view_controller */ = {
 			isa = PBXGroup;
 			children = (
-				C7DDE052211F343F000FEDBB /* LoginViewController.swift */,
-				C7DDE08A211F49F7000FEDBB /* MenuTabController.swift */,
-				C703742921202EBC00FE14A3 /* RegistrationViewController.swift */,
+				C7FDE10D212834300014135C /* main_menu */,
+				C7FDE1072125E4BB0014135C /* auth_register */,
 			);
 			path = view_controller;
 			sourceTree = "<group>";
@@ -198,7 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				C7FDE0B02121473F0014135C /* custom */,
-				C7FDE0AF2121471B0014135C /* type */,
+				C7FDE0AF2121471B0014135C /* style */,
 				C7FDE0AE212146D20014135C /* modifier_view */,
 			);
 			path = custom_view;
@@ -207,7 +260,7 @@
 		C7DDE084211F3DEA000FEDBB /* protocol */ = {
 			isa = PBXGroup;
 			children = (
-				C7DDE085211F3E02000FEDBB /* OnKeyboardShow.swift */,
+				C7DDE085211F3E02000FEDBB /* KeyboardDeletgate.swift */,
 			);
 			path = protocol;
 			sourceTree = "<group>";
@@ -234,7 +287,7 @@
 			children = (
 				C7DDE094211F66CF000FEDBB /* Colors.swift */,
 				C7DDE096211F67CC000FEDBB /* Constant.swift */,
-				C703742721202B8200FE14A3 /* HttpRequest.swift */,
+				C703742721202B8200FE14A3 /* Api.swift */,
 			);
 			path = resourse;
 			sourceTree = "<group>";
@@ -242,6 +295,7 @@
 		C7FDE0AE212146D20014135C /* modifier_view */ = {
 			isa = PBXGroup;
 			children = (
+				C7FDE12D212846890014135C /* view */,
 				C7FDE0C82123E2ED0014135C /* modifier */,
 				C7FDE0BC212295190014135C /* factory */,
 				C7FDE0BB212295120014135C /* protocol */,
@@ -249,20 +303,26 @@
 			path = modifier_view;
 			sourceTree = "<group>";
 		};
-		C7FDE0AF2121471B0014135C /* type */ = {
+		C7FDE0AF2121471B0014135C /* style */ = {
 			isa = PBXGroup;
 			children = (
+				C7FDE137212850810014135C /* view */,
+				C7FDE0F4212580600014135C /* visual_effect */,
 				C7FDE0B2212147680014135C /* text_field */,
 				C7FDE0B1212147590014135C /* button */,
 			);
-			path = type;
+			path = style;
 			sourceTree = "<group>";
 		};
 		C7FDE0B02121473F0014135C /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				C7FDE1082126911A0014135C /* image_view */,
+				C7FDE0EA2125149A0014135C /* text_field */,
+				C7FDE0E12123F4E50014135C /* button */,
 				C7DDE08E211F4BDD000FEDBB /* alert_helper */,
 				C703742B21202F7200FE14A3 /* ViewBackground.swift */,
+				C7FDE0D72123EBC30014135C /* VisualEffectViewContiner.swift */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -270,9 +330,10 @@
 		C7FDE0B1212147590014135C /* button */ = {
 			isa = PBXGroup;
 			children = (
-				C70374312120390200FE14A3 /* ButtonTypeOne.swift */,
-				C7FDE097212135EF0014135C /* ButtonCircleTypeOne.swift */,
+				C70374312120390200FE14A3 /* ButtonGradient.swift */,
 				C7FDE0C5212330020014135C /* ButtonBack.swift */,
+				C7FDE0E8212488AA0014135C /* RadioButtonGray.swift */,
+				C7FDE10B2126B01A0014135C /* ButtonQestion.swift */,
 			);
 			path = button;
 			sourceTree = "<group>";
@@ -281,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				C703742E2120378C00FE14A3 /* TextFieldTypeOne.swift */,
+				C7FDE0F221257E360014135C /* TextFieldCodeTypeOne.swift */,
 			);
 			path = text_field;
 			sourceTree = "<group>";
@@ -310,8 +372,98 @@
 				C7FDE0CC2123E3AA0014135C /* ModifierViewGradient.swift */,
 				C7FDE0CB2123E3AA0014135C /* ModifierViewPadding.swift */,
 				C7FDE0CF2123E3AA0014135C /* ModifierViewPlaceholderColor.swift */,
+				C7FDE1242128418D0014135C /* ModifierViewBlure.swift */,
 			);
 			path = modifier;
+			sourceTree = "<group>";
+		};
+		C7FDE0E12123F4E50014135C /* button */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE0DB2123F2470014135C /* RadioButtonGroup.swift */,
+				C7FDE0E6212488500014135C /* RadioButton.swift */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		C7FDE0EA2125149A0014135C /* text_field */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE0EB212514AE0014135C /* TextFieldGroup.swift */,
+			);
+			path = text_field;
+			sourceTree = "<group>";
+		};
+		C7FDE0ED21251DEF0014135C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE0EE21251E0E0014135C /* String.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		C7FDE0F4212580600014135C /* visual_effect */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE0F5212580770014135C /* VisualEffectContianer.swift */,
+			);
+			path = visual_effect;
+			sourceTree = "<group>";
+		};
+		C7FDE0FE2125D4920014135C /* api */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE0FF2125D4AC0014135C /* ApiAuthorization.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		C7FDE1072125E4BB0014135C /* auth_register */ = {
+			isa = PBXGroup;
+			children = (
+				C7DDE052211F343F000FEDBB /* LoginViewController.swift */,
+				C7DDE08A211F49F7000FEDBB /* MenuTabController.swift */,
+				C703742921202EBC00FE14A3 /* RegistrationViewController.swift */,
+				C7FDE0F021251E750014135C /* CheckCodeViewController.swift */,
+				C7FDE0F72125C62E0014135C /* CreatePasswordViewController.swift */,
+				C7FDE1052125DF710014135C /* ForgotPasswordViewController.swift */,
+			);
+			path = auth_register;
+			sourceTree = "<group>";
+		};
+		C7FDE1082126911A0014135C /* image_view */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE1092126913E0014135C /* CircleImageView.swift */,
+			);
+			path = image_view;
+			sourceTree = "<group>";
+		};
+		C7FDE10D212834300014135C /* main_menu */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE10E212834460014135C /* UserMenuViewController.swift */,
+			);
+			path = main_menu;
+			sourceTree = "<group>";
+		};
+		C7FDE12D212846890014135C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE12F2128469F0014135C /* ModifierButton.swift */,
+				C7FDE13121284CD20014135C /* ModifierLabel.swift */,
+				C7FDE13321284D990014135C /* ModifierTextField.swift */,
+				C7FDE13521284E5F0014135C /* ModifierVisualEffect.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C7FDE137212850810014135C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDE138212850910014135C /* ViewBlure.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,28 +598,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FDE13421284D990014135C /* ModifierTextField.swift in Sources */,
 				C7DDE08B211F49F7000FEDBB /* MenuTabController.swift in Sources */,
 				C7FDE0D22123E3AA0014135C /* ModifierViewGradient.swift in Sources */,
+				C7FDE10C2126B01A0014135C /* ButtonQestion.swift in Sources */,
+				C7FDE13221284CD20014135C /* ModifierLabel.swift in Sources */,
 				C7FDE0D12123E3AA0014135C /* ModifierViewPadding.swift in Sources */,
 				C7DDE095211F66CF000FEDBB /* Colors.swift in Sources */,
 				C7FDE0C6212330020014135C /* ButtonBack.swift in Sources */,
 				C7DDE08D211F4B97000FEDBB /* AlertHelper.swift in Sources */,
 				C7FDE0A5212140630014135C /* ModifierView.swift in Sources */,
+				C7FDE10A2126913E0014135C /* CircleImageView.swift in Sources */,
+				C7FDE0F82125C62E0014135C /* CreatePasswordViewController.swift in Sources */,
+				C7FDE0DC2123F2470014135C /* RadioButtonGroup.swift in Sources */,
 				C7DDE053211F343F000FEDBB /* LoginViewController.swift in Sources */,
 				C703742A21202EBC00FE14A3 /* RegistrationViewController.swift in Sources */,
 				C7FDE0D32123E3AA0014135C /* ModifierViewBorder.swift in Sources */,
-				C7DDE086211F3E02000FEDBB /* OnKeyboardShow.swift in Sources */,
+				C7FDE139212850910014135C /* ViewBlure.swift in Sources */,
+				C7DDE086211F3E02000FEDBB /* KeyboardDeletgate.swift in Sources */,
+				C7FDE0F121251E750014135C /* CheckCodeViewController.swift in Sources */,
+				C7FDE0F6212580770014135C /* VisualEffectContianer.swift in Sources */,
+				C7FDE11521283AE80014135C /* Gradient.swift in Sources */,
+				C7FDE10F212834460014135C /* UserMenuViewController.swift in Sources */,
+				C7FDE13621284E5F0014135C /* ModifierVisualEffect.swift in Sources */,
+				C7FDE0EF21251E0E0014135C /* String.swift in Sources */,
+				C7FDE0D82123EBC30014135C /* VisualEffectViewContiner.swift in Sources */,
 				C7DDE097211F67CC000FEDBB /* Constant.swift in Sources */,
-				C703742821202B8200FE14A3 /* HttpRequest.swift in Sources */,
+				C7FDE0E7212488500014135C /* RadioButton.swift in Sources */,
+				C703742821202B8200FE14A3 /* Api.swift in Sources */,
 				C7DDE051211F343F000FEDBB /* AppDelegate.swift in Sources */,
 				C7FDE0D42123E3AA0014135C /* ModifierViewCornerRadius.swift in Sources */,
+				C7FDE1302128469F0014135C /* ModifierButton.swift in Sources */,
+				C7FDE1062125DF710014135C /* ForgotPasswordViewController.swift in Sources */,
 				C7DDE089211F417A000FEDBB /* HttpService.swift in Sources */,
-				C70374322120390200FE14A3 /* ButtonTypeOne.swift in Sources */,
+				C70374322120390200FE14A3 /* ButtonGradient.swift in Sources */,
+				C7FDE11821283D250014135C /* Size.swift in Sources */,
+				C7FDE1002125D4AC0014135C /* ApiAuthorization.swift in Sources */,
+				C7FDE11A21283E5E0014135C /* Duration.swift in Sources */,
 				C7FDE0AB212140D70014135C /* ModifierViewFactory.swift in Sources */,
-				C7FDE098212135EF0014135C /* ButtonCircleTypeOne.swift in Sources */,
+				C7FDE0E9212488AA0014135C /* RadioButtonGray.swift in Sources */,
+				C7FDE1252128418D0014135C /* ModifierViewBlure.swift in Sources */,
+				C7FDE0EC212514AE0014135C /* TextFieldGroup.swift in Sources */,
 				C703742F2120378C00FE14A3 /* TextFieldTypeOne.swift in Sources */,
 				C7FDE0D52123E3AA0014135C /* ModifierViewPlaceholderColor.swift in Sources */,
 				C7FDE0D62123E3AA0014135C /* ModifierViewCircle.swift in Sources */,
+				C7FDE1022125D8A30014135C /* AuthorizationUser.swift in Sources */,
+				C7FDE0F321257E360014135C /* TextFieldCodeTypeOne.swift in Sources */,
 				C703743521203B6800FE14A3 /* RegisrationUser.swift in Sources */,
 				C703742C21202F7200FE14A3 /* ViewBackground.swift in Sources */,
 			);
